@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: 'Cormorant SC', serif;
+}
+a{
+    text-decoration: none;
+    color:red ;
+    text-shadow: 2px 2px 2px black;
+    
+}
+/* pseudo classes- syntax: selector:pseudo-class{property:value;} */
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background-image: linear-gradient(cyan,white );
+    color: blue;
+}
+.profile{
+    margin-top: 50px;
+    border-radius: 100%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 300px;
+    font-family: 'Bebas Neue', cursive;
+}
+#name{
+    font-size: larger;
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+#bio{
+    padding: 50px;
+    font-size: 20px;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: auto;
+
+    background-color: black;
+    
+}
+
+
